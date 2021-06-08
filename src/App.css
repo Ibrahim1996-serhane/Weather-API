@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100vw;
   transition: background-color 1s ease-in;
+  position: relative;
 }
 
 .app__header,
@@ -14,12 +15,97 @@
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 /*  Search bar */
 
 /* Current weather */
 
-div {
-  border: 5px solid red;
+
+header{
+    background-color: #7c9ed5;
+    height: 100px;
+    position: relative;
+}
+button {
+  background-color: rgba(88,121,199,255);
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-left: 80px;
+  color: black;
+  height: 75px;
+  width: 200px;
+  font-weight: bold;
+  position: relative;
+
+}
+input[type="text"]{    
+  background: transparent;
+  border: none;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 30px;
+  color: white;
+  position: relative;
+}
+body{
+  background-color:#a5cdf0;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.search img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.text-under{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: -21px;
+  position: relative;
+}
+.under-under {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.unders{
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+gap:3rem;
+justify-content: center;
+
+
+  
+}
+.list{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  grid-column-gap: 40px;
+  position: relative;
+}
+.list-first{
+  grid-column-start: 2;
+  position: relative;
+}
+.list p{
+  margin-left: 80px;
+  position: relative;
 }
