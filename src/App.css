@@ -98,22 +98,40 @@ justify-content: center;
 font-size: 45px;
   
 }
-.list{
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  margin-top: 70px;
+.list {
+display: flex;
+justify-content: center;
+justify-items: center;
+  margin-top: 280px;
   margin-right: auto;
   margin-left: auto;
   grid-column-gap: 40px;
   position: relative;
-  
+  font-size:45px;
+  gap:3rem;
   
 }
-.list-first{
+.sharifa{
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  /* margin-right: -40px;
+  margin-left:-40px; */
+
+}
+.bob{
+  
+    display: flex;
+    justify-content: center;
+margin-bottom: 100px;
+
+
+}
+/* .list-first{
   grid-column-start: 2;
   position: relative;
-}
-.list p{
-  margin-left: 80px;
+} */
+ .list p{
+  margin-top: 0px;
   position: relative;
-}
+} 

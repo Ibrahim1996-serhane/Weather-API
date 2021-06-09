@@ -9,7 +9,7 @@ class Head extends React.Component {
     render() {
       return (
         <div class="search">
-          {this.state.input}
+          {/* {this.state.input} */}
           <input 
           class="input"
             type="text"
@@ -22,7 +22,7 @@ class Head extends React.Component {
           <button
           type="submit"
             onClick={event => {
-              this.props.handleInput(this.state.input);
+              this.props.handleInputChange(this.state.input);
             }}
           >
             FIND WEATHER
